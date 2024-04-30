@@ -1,0 +1,122 @@
+
+header{
+    background-color: #e8740f86; */
+    
+}
+
+img{
+    height: auto;
+    width: 25%;
+    height: auto;
+    display: flex;
+
+
+}
+
+img, .top-right{
+  border: 15px solid rgb(116, 154, 40);
+    border-radius: 20%;
+
+}
+
+.myImg{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 200px;
+    top: -75px;
+}
+
+.toptop{
+    position: relative;
+    font-size: 25px; 
+    background-color: rgba(206, 178, 39, 0.201);
+}
+.Summeray{
+    position: relative;
+    top: -170px;
+    padding-top: 150px;
+    padding-left: 0px;
+    padding-right: 500px;
+    font-size: 25px; 
+    
+}
+
+.proJ {
+    position: Relative;
+    
+    top: -190px;
+    padding-left: 10px;
+    padding-right: 500px;
+    padding-bottom: 200px;
+     font-size: 25px;
+     background-color: rgba(222, 204, 13, 0.413);
+}
+
+.EdU{position: Relative;
+    
+    top: -370px;
+    padding-left: 10px;
+    padding-right: 500px;
+    padding-bottom: 200px;
+    font-size: 25px;
+    background-color: rgba(215, 218, 19, 0.514);
+}
+
+.eXp{position: Relative;
+    top: -550px;
+    padding-left: 10px;
+    padding-right: 500px;
+    padding-bottom: 200px;
+    background-color: rgba(144, 214, 14, 0.495);
+    font-size: 25px;}
+
+.CerTy{position: Relative;
+    top: -725px;
+    padding-left: 10px;
+    padding-right: 500px;
+    padding-bottom: 100px;
+    background-color: rgba(6, 207, 50, 0.447);
+    font-size: 25px;}
+
+    /* website layout*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: #fff;  
+}
+
+.header  {
+    padding: 200px;
+    text-align: center;
+    background-color: hsl(28, 76%, 46%);
+     
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+
+
+
+.resume-section p {
+    font-size: 30px; /
+}
+Font and border
+
+body {
+    color: hsl(0, 0%, 0%); 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.border-same-color {
+    border: 100px solid #ad7020; 
+    padding: 100px;
+}
