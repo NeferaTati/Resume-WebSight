@@ -25,9 +25,8 @@ img {
     position: relative;
 }
 
-.body{
-
-    margin: 15px;
+body {
+    margin: 35px;
     padding: 15px;
     border: 15px solid rgb(72, 237, 21);
     border-radius: 1000px;
@@ -35,80 +34,65 @@ img {
 }
 
 .proJ {
-    position: Relative;
-    
-    top: -90px;
+    position: relative;
+    top: -50px;
     padding-left: 10px;
     padding-right: 500px;
     padding-bottom: 200px;
-     font-size: 25px;
-     background-color: rgba(222, 204, 13, 0.413);
+    font-size: 25px;
+    background-color: rgba(222, 204, 13, 0.413);
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
 }
 
-.EdU{position: Relative;
-    
+.proJ:hover {
+    background-color: lightgreen;
+}
+
+.EdU {
+    position: relative;
     top: -330px;
     padding-left: 10px;
     padding-right: 500px;
     padding-bottom: 200px;
     font-size: 25px;
     background-color: rgba(215, 218, 19, 0.514);
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
 }
 
-.eXp{position: Relative;
+.EdU:hover {
+    background-color: lightgreen;
+}
+
+.eXp {
+    position: relative;
     top: -550px;
     padding-left: 10px;
     padding-right: 500px;
     padding-bottom: 200px;
     background-color: rgba(144, 214, 14, 0.495);
-    font-size: 25px;}
+    font-size: 25px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
 
-.CerTy{position: Relative;
+.eXp:hover {
+    background-color: rgb(200, 238, 144);
+}
+
+.CerTy {
+    position: relative;
     top: -725px;
     padding-left: 10px;
     padding-right: 500px;
     padding-bottom: 100px;
-    background-color: rgba(6, 207, 50, 0.447);
-    font-size: 25px;}
-
-    /* website layout*/
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif; 
-    background-color: #fff;  
+    background-color: rgba(219, 234, 13, 0.447);
+    font-size: 25px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
 }
 
-.header  {
-    padding: 200px;
-    text-align: center;
-    background-color: hsl(28, 76%, 46%);
-     
-}
-
-.title {
-    font-weight: bold;
-    font-size: 24px; 
-    font-family: 'Times New Roman', Times, serif; 
-}
-
-
-
-
-.resume-section p {
-    font-size: 30px; /
-}
-Font and border
-
-body {
-    color: hsl(0, 0%, 0%); 
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.border-same-color {
-    border: 100px solid #ad7020; 
-    padding: 100px;
+.CerTy:hover {
+    background-color: lightgreen;
 }
