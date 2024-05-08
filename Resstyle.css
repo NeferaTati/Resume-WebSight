@@ -1,51 +1,43 @@
 
-header{
-    background-color: #e8740f86; */
-    
-}
-
-img{
-    height: auto;
-    width: 25%;
-    height: auto;
-    display: flex;
-
-
-}
-
-img, .top-right{
-  border: 15px solid rgb(116, 154, 40);
-    border-radius: 20%;
-
-}
-
-.myImg{
-    display: flex;
-    justify-content: end;
-    position: absolute;
-    left: 200px;
-    top: -75px;
-}
-
-.toptop{
+header {
+    background-color: #e8740f86;
+    margin: 15px;
+    padding: 15px;
+    border: 15px solid darkorange;
+    border-radius: 15px;
     position: relative;
-    font-size: 25px; 
-    background-color: rgba(206, 178, 39, 0.201);
 }
-.Summeray{
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.toptop {
+    font-size: 25px;
     position: relative;
-    top: -170px;
-    padding-top: 150px;
-    padding-left: 0px;
-    padding-right: 500px;
-    font-size: 25px; 
-    
+}
+
+.Summeray {
+    font-size: 25px;
+    position: relative;
+}
+
+.body{
+
+    margin: 15px;
+    padding: 15px;
+    border: 15px solid rgb(72, 237, 21);
+    border-radius: 1000px;
+    position: relative;
 }
 
 .proJ {
     position: Relative;
     
-    top: -190px;
+    top: -90px;
     padding-left: 10px;
     padding-right: 500px;
     padding-bottom: 200px;
@@ -55,7 +47,7 @@ img, .top-right{
 
 .EdU{position: Relative;
     
-    top: -370px;
+    top: -330px;
     padding-left: 10px;
     padding-right: 500px;
     padding-bottom: 200px;
